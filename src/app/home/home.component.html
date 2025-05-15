@@ -1,0 +1,6 @@
+<p>home works!</p>
+<app-greeting [message]="message()" />
+<!--pass data from home to diff component via a singal, can hardcode too within "" needs to be JS-->
+<app-counter />
+<input type="text" (keyup)="keyUpHandler($event)" />
+<!--anytime any key is pressed-->
